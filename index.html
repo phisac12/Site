@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+
+  <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+
+  <script src="https://kit.fontawesome.com/ac573d854f.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+  <title>Isaac Dev</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-gradient">
+    <div class="container">
+      <a class="navbar-brand h1 mb-0" href="#">Isaac</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSite">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link voltarTopo" id="buton-nav" href="#">Inicio
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link services" id="buton-nav" href="#anchor2">Serviços
+
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact" id="buton-nav" href="#anchor">Contato
+
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+              Social
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://www.facebook.com/Isaac.Loop/" target="_blank">Facebook</a>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/isaac-cesar-8841b01a7/" target="_blank">Linkedin</a>
+              <a class="dropdown-item" href="https://www.instagram.com/huntters_night/" target="_blank">Instagram</a>
+          </li>
+        </ul>
+
+        <form class="form-inline">
+          <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar ...">
+          <button class="btn btn-dark" type="submit">Ok</button>
+
+        </form>
+
+      </div>
+    </div>
+
+  </nav>
+  <div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100 " src="image/slide2.jpg" alt="Imagem central">
+      </div>
+    </div>
+  </div>
+
+  <div class="row my-3 justify-content-sm-center" style="margin:auto;">
+
+    <div class="col-sm-4 mb-3" id="anchor2">
+      <div class="card">
+        <img class="card-img-top" src="image/card1.jpg">
+        <div class="card-body">
+          <h3 class="card-title">Projeto Site</h3>
+          <h6 class="card-subtitle mb-2 text-muted">Nesse projeto voce verá um site com algumas informações úteis</h6>
+          <p class="card-text">Esse site conta com um sistema cadastro e login e por dentro você tem um site com
+            informações úteis como por exemplo oque é ter foco para realizar todas suas atividades do cotidiano, e toda a estrutura do site
+          foi criada por mim.</p>
+          <a class="card-link" target="_blank" href="https://github.com/phisac12/Meu-projeto">Veja mais</a>
+          <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Contato</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 mb-3">
+      <div class="card">
+        <img class="card-img-top" src="image/card2.jpg">
+        <div class="card-body">
+          <h3 class="card-title">Projeto de formulário</h3>
+          <h6 class="card-subtitle mb-2 text-muted">Nesse projeto voce terá um formulário de cadastro</h6>
+          <p class="card-text">Nesse formulário de cadastro você verá alguns campos de preenchimento como nome,
+            sobrenome, email e escolha de curso, tudo isso já com a conexão com o banco de dados funcionando</p>
+          <a class="card-link" target="_blank" href="https://github.com/phisac12/projectform">Veja mais</a>
+          <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Contato</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 mb-3">
+      <div class="card">
+        <img class="card-img-top" src="image/card3.jpg">
+        <div class="card-body">
+          <h3 class="card-title">Projeto Site 2</h3>
+          <h6 class="card-subtitle mb-2 text-muted">Nesse projeto voce verá um site desenvolvido para uma marca</h6>
+          <p class="card-text">Esse site foi desenvolvido em bootstrap 4 para um <em>Designer</em> e uma marca chamada
+            <strong>ShiftCriativo</strong> para mais informações sobre o projeto acesse o link abaixo</p>
+          <a class="card-link" target="_blank" href="https://github.com/phisac12/projetonovo">Veja mais</a>
+          <a class="card-link" data-toggle="modal" data-target="#siteModal" href="#">Contato</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="display-4"><i class="fas fa-video mr-3"></i>Central de Video </h1>
+            <p class="lead">Algumas das musicas que eu gosto de ouvir, essa área será personalizada sempre que possível</p>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Primeiro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Segundo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Terceiro</a>
+            </li>
+
+          </ul>
+          <div class="tab-content" id="#nav-pills-content">
+            <div class="tab-pane fade show active justify-content-center" id="nav-item-01" role="tabpanel">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-16by9 ml-2">
+                    <iframe width="1903" height="778" src="https://www.youtube.com/embed/0-7IHOXkiV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+ 
+                </div>
+                <div class="col-sm-6">
+                     <p class="ml-2 mt-2">Music and Lyrics by JJ Julius Son
+
+                      KALEO's debut album, A/B, featuring “Way Down We Go”, "All The Pretty Girls" & "No Good" is available now. Stream and <a class="alert-success" href="https://atlanti.cr/kaleo_ab" target="_blank">Download</a>
+                      
+                      ***
+                     </p>
+                </div>
+ 
+               </div>
+
+            </div>
+            <div class="tab-pane fade show justify-content-center" id="nav-item-02" role="tabpanel">
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-16by9 ml-2">
+                    <iframe width="1903" height="778" src="https://www.youtube.com/embed/V-NVM2yWBX0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+ 
+                </div>
+                <div class="col-sm-6">
+                     <p class="ml-2 mt-2">Music: Pep. Mozao
+
+                      💬If you liked the video don't forget to subscribe & Turn the 🔔 to stay updated.                                     
+                      
+                      🎵Download/Stream The Song <a href="https://goo.gl/HfCFyu" class="alert-success" target="_blank">Download</a>
+
+                      Você pode fazer o download dessa musica acessando o link.
+                     </p>
+                </div>
+ 
+               </div>
+
+            </div>
+            <div class="tab-pane fade show justify-content-center" id="nav-item-03" role="tabpanel">
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-16by9 ml-2">
+                    <iframe width="1903" height="778" src="https://www.youtube.com/embed/wGiTPgvKktM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+ 
+                </div>
+                <div class="col-sm-6">
+                     <p class="ml-2 mt-2">Para quem gosta de um clássico Pearl Jam, ai está uma das minhas musicas favoritas.
+                       esta musica pertence à um album chamado "Ten", para acessar a letra clique <a href="https://www.letras.mus.br/pearl-jam/30323/" target="_blank" class="alert-success">aqui</a>
+                     </p>
+                </div>
+ 
+               </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" style="background-color: rgb(247, 247, 247)">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center my-5"  id="anchor">
+          <h1 class="display-3"><i class="fas fa-paper-plane mr-4"></i>Para <strong>contato</strong> preencha os campos</h1>
+
+        </div>
+
+      </div>
+      <div class="row justify-content-center mb-5">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+
+          
+          <form method="POST" action="form.php">
+
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="nome1">Nome</label>
+                <input type="text" name="nome1" class="form-control" id="nome" placeholder="Nome">
+
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="sobrenome1">Sobrenome</label>
+              <input type="text" name="sobrenome1" class="form-control" id="sobrenome" placeholder="Sobrenome">
+
+            </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-12">
+                <label for="email1">Email</label>
+                <input type="email" name="email1" id="email" class="form-control" placeholder="Digite seu email">
+
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-12">
+                <label for="options1">Tipo de serviço</label>
+                <select id="options" name="options1" class="form-control">
+                  <option selected>Selecione...</option>
+                  <option>Site</option>
+                  <option>Formulário</option>
+                  <option>Area de login</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-12">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">Desejo receber novidades por e-mail
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-sm-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+                <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Precisa de ajuda?" data-content="Para enviar os dados você deve preencher todos os campos">Ajuda</a>
+
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-md-12 badge-dark text-justify-center text-light" id="footericons">
+    <footer>
+
+        <p class="lead text-center">Com social media você chega aonde quiser.</p>
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/Isaac.Loop/" target="_blank" class="btn-floating btn-fb mx-1 text-light" style="font-size:50px"><i class="fab fa-facebook-square"></i>
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="https://www.instagram.com/huntters_night/" target="_blank" class="btn-floating btn-fb mx-1 text-light" style="font-size:50px"><i class="fab fa-instagram"></i>
+                </a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/isaac-cesar-8841b01a7/" target="_blank" class="btn-floating btn-fb mx-1 text-light" style="font-size:50px"><i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+
+        <div class="footer-copyright text-center py-3 lead" style="color:white;"> © 2020 Copyright:
+            <a href="#" style="color:rgb(150, 140, 201); text-decoration:none;">Isaac Dev</a>
+            <hr>
+            <a href="#" class="voltarTopo" style="text-decoration:none; color:white;">
+              <div class="animate__animated animate__slideOutUp animate__infinite	infinite animate__slow	1.5s"><i class="fas fa-arrow-up"></i></div>
+              Voltar ao topo</a>
+        </div>
+    </footer>
+</div>
+
+<div class="col-12 mt-5">
+  <blockquote class="blockquote text-center">
+    <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver emocionalmente envolvido em seu trabalho.</p>
+    <footer class="blackquote-footer">Biz Stone <cite title="Titulo">Fundador do Twitter</cite>
+    </footer>
+  </blockquote>
+</div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h5 class="modal-title  ">Redes Sociais</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>x</span>
+            </button>
+          </div>
+
+          <div class="modal-body text-center">
+            <div class="container fluid">
+
+              <div class="row">
+                <h3 class="display-2 text-center">Contato</h3>
+                <p class="lead">Para entrar em contato comigo acesse uma dessas redes sociais!</p>
+              </div>
+              <div class="social-buttons">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="https://www.facebook.com/Isaac.Loop/" target="_blank">
+                      <img src="icons/icons8-facebook.svg">
+                    </a>
+                    <a href="https://www.instagram.com/huntters_night/" target="_blank">
+                      <img src="icons/icons8-instagram.svg">
+                    </a>
+                    <a href="https://www.linkedin.com/in/isaac-cesar-8841b01a7/" target="_blank">
+                      <img src="icons/icons8-linkedin.svg">
+                    </a>
+                    <a href="https://github.com/phisac12/" target="_blank">
+                      <img src="icons/icons8-octocat.svg">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
+  <script> 
+    $(function() {
+
+      $('[data-toggle="popover"]').popover()
+
+    })
+
+    $(".contact").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#anchor").offset().top
+  }, 1200);
+});
+
+$(".services").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#anchor2").offset().top
+  }, 1000);
+});
+
+$(".voltarTopo").click(function() {
+  $('html, body').animate({
+    scrollTop: $(".voltarTopo").offset().top
+  }, 750);
+});
+
+  </script>
+</body>
+
+</html>
